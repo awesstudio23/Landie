@@ -1,4 +1,4 @@
-jQuery(document).ready(function ($) {
+$(document).ready(function () {
   $.scrollify({
     section: ".scrollify",
     scrollSpeed: 100,
@@ -6,4 +6,7 @@ jQuery(document).ready(function ($) {
     updateHash: false,
     touchScroll: true,
   });
+  if (e.cancelable) {
+    e.preventDefault();
+  }
 });
