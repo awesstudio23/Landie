@@ -1,0 +1,40 @@
+.offer
+    position: relative
+    display: flex
+    height: 100vh
+    align-items: center
+    background: url(../img/offer/bg.svg) top center / cover no-repeat
+    background-size: 100%
+    &__wrapper
+        position: absolute
+        top: 0
+        left: 50%
+        transform: translate(-50%)
+        width: 1100px
+        height: 900px
+        background: url(../img/offer/figure.svg) center center / cover no-repeat
+        background-size: 100%
+        text-align: center
+        display: flex
+        flex-direction: column
+        justify-content: center
+    &__title, &__text
+        margin: 0 auto
+    &__title
+        margin-bottom: 16px
+    &__text-mb35
+        margin-bottom: 35px
+    &__price
+        color: #222F65
+        font-weight: 500
+        font-size: 50px
+        line-height: 66px
+        letter-spacing: 1px
+    &__descr
+        color: #222F65
+        font-size: 16px
+        line-height: 26px
+        margin-bottom: 60px
+    &__btn
+        width: 190px
+        margin: 0 auto
