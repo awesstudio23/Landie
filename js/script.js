@@ -1,4 +1,4 @@
-$(document).ready(function () {
+$(document).ready(function (e) {
   $.scrollify({
     section: ".scrollify",
     scrollSpeed: 100,
