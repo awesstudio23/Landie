@@ -1,0 +1,29 @@
+.nav
+    &__menu
+        display: flex
+        margin: 0
+        padding: 0
+    &__item
+        list-style-type: none
+        margin-right: 60px
+        &:last-child
+            margin-right: 0px
+    &__link
+        position: relative
+        color: #505F98
+        font-size: 14px
+        line-height: 24px
+        text-decoration: none
+        transition: all 5s ease
+        &:hover
+            color: #505F98
+            transition: all 5s ease
+            &::before
+                content: ''
+                position: absolute
+                bottom: -2px
+                left: 50%
+                transform: translate(-50%)
+                width: 110%
+                height: 2px
+                background: #505F98
