@@ -1,18 +1,20 @@
 .btn
+    display: inline-block
+    transition: transform .3s ease
+    &:hover
+        transform: translate(0, -5%)
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25)
     &-fill
         color: #FFFFFF
-        padding: 5px 40px
+        padding: 7px 42px
         font-weight: 500
         font-size: 12px
         line-height: 18px
         background: #111B47
         border-radius: 2px
         text-decoration: none
-        border: 2px solid #111B47
-        transition: color .3s ease, background .3s ease
         &:hover
-            color: #111B47
-            background: #FFFFFF
+            color: #FFFFFF
     &-outline
         color: #091133
         padding: 5px 54px
@@ -22,7 +24,5 @@
         border-radius: 2px
         text-decoration: none
         border: 2px solid #091133
-        transition: color .3s ease, background .3s ease
         &:hover
-            color: #FFFFFF
-            background: #091133
+            color: #091133
