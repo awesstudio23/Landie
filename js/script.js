@@ -9,4 +9,6 @@ $(document).ready(function (e) {
   if (e.cancelable) {
     e.preventDefault();
   }
+
+  new WOW().init();
 });
